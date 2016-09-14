@@ -1,0 +1,44 @@
+.ejemplo {
+
+border:2px solid #a1a1a1;
+padding:10px 40px;
+/*background:#dddddd;*/
+width:400px;
+height:400px;
+}
+#divradius {
+border-radius:25px;
+}
+#multiimagen {
+background:url(../img/imagen1.jpg)no-repeat 0px 20px, url(../img/imagen2.jpg)no-repeat 50px 50px;
+}
+#divrgba {
+background-color:rgba(120,85,44,0,9);
+background:rgba(120,85,44,0,9);
+color:rgba(120,85,44,0,9);
+}          
+.shadow{
+box-shadow:5px 15px 25px #888888;
+margin-bottom:50px;
+}
+.h1hsadow{  
+text-shadow:4px 4px #ff0000;
+}
+.tres-columnas{
+-webkit-column-count:3;/*chrome, safari, opera*/
+-moz-column-count:3;/*firefox*/column-count:3;
+}
+.ejemplo.parrafo{
+width:11em;
+word-wrap:break-word;
+}
+.h1hsadow::before{content:"CBTIS";
+}
+.h1hsadow::before{content:url(smiley.gif);
+}
+
+@media (max-width: 800px) {
+body {
+background: #DEBAF5;
+}
+} 
